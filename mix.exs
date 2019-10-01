@@ -19,8 +19,8 @@ defmodule GCPAuth.Mixfile do
   end
 
   defp deps do
-    [{:httpoison, "~> 0.9.2"},
-     {:json_web_token, "~> 0.2.6"},
+    [{:httpoison, ">= 0.0.0"},
+     {:json_web_token, "~> 0.2.10"},
      {:credo, "~> 0.4.6", only: :dev}]
   end
 
